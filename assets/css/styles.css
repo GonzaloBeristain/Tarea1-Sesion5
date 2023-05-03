@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(247, 245, 242);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(140, 71, 127)
+}
+
+input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(16, 16, 168);
+}
+
+.sobreTi {
+    width: 100%;
+    background-color: rgb(247, 245, 242);
+}
+
+label {
+    color: rgb(16, 16, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linea {
+    width: 100%;
+    background-color: rgb(247, 245, 242);
+}
+
+.btn {
+    width: 200px;
+    border-radius: 0px;
+    background: linear-gradient(90deg, rgba(140,71,127,1) 0%, rgba(44,9,119,1) 65%, rgba(78,10,150,1) 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: rgb(74, 42, 150);
+}
+
+.foto1 {
+    background: linear-gradient(90deg, rgba(140,71,127,1) 0%, rgba(44,9,119,1) 65%, rgba(78,10,150,1) 90%);
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.email-span, .email-span2, .phone-span, .phone-span2 {
+    display: inline-block;
+}
+
+.email-span, .phone-span {
+    font-size: 20px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.email-span2, .phone-span2 {
+    font-size: 15px;
+    width: 150px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 151, 151);
+}
+
+h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.sobreMi-span {
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 151, 151);
+}
+
+.carta1 {
+    background: linear-gradient(90deg, rgba(140,71,127,1) 0%, rgba(44,9,119,1) 65%, rgba(78,10,150,1) 90%);
+    height: 298px;
+}
+
+.imagen {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.parrafo1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}

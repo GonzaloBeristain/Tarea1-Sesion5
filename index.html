@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINKS EXTERNOS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- LINKS LOCALES -->
+    <script defer src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Tarea 1 - Sesión 5</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center py-5">INSCRÍBETE</h1>
+    </header>
+    <main class="container">
+        <!-- INICIO PRIMERA PARTE -->
+    <div class="d-flex justify-content-center aligne-items-center">
+        <div class="row">
+            <div class="col-6">
+                <label class="px-2 py-2" for="name">Nombre</label>
+                <input id="nombre" class="linea" type="text">
+                <label class="px-2 py-2" for="trabajo">Trabajo</label>
+                <input id="trabajo" class="linea" type="text">
+            </div>
+            <div class="col-6 columna">
+                <label class="px-2 py-2" for="emali">Correo</label>
+                <input id="email" class="linea" type="email">
+                <label class="px-2 py-2" for="telefono">Teléfono</label>
+                <input id="telefono" class="linea" type="text">
+            </div>
+            <div>
+                <label class="px-2 py-2" for="sobreTi">Sobre ti</label>
+                <input id="sobreti" class="sobreTi" type="text">
+            </div>
+            <div class="pt-5">
+                <button id="boton" type="button" class="btn btn-primary">ENVIAR</button>
+            </div>
+        </div>
+    </div>
+    <!-- FIN PRIMERA PARTE -->
+    <!-- INICIO SEGUNDA PARTE -->
+    <div class="d-flex justify-content-center aligne-items-center pt-5">
+    <div class="card mb-3" style="width: 540px; height: 300px;">
+        <div class="row g-0">
+            <div class="carta1 col-md-4">
+                <img src="./assets/img/pngtree-contact-cartoon-icon-on-business-card-image_2287292.jpg" class="imagen img-fluid" alt="...">
+                <p id="nombreCarta" class="parrafo1 text-center"></p>
+                <p id="trabajoCarta" class="parrafo1 text-center"></p>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Información</h5>
+                    <hr>
+                    <span class="email-span">Email</span>
+                    <span class="phone-span">Phone</span>
+                    <span id="emailCarta" class="email-span2">email@gmail.com</span>
+                    <span id="telefonoCarta" class="phone-span2">3333333</span>
+                    <h4>Sobre mi</h4>
+                    <hr>
+                    <span id="sobremiCarta" class="sobreMi-span">JavaScipt y programación orientada a objetos son lo mejor!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- FIN SEGUNDA PARTE -->
+    </main>
+</body>
+</html>
